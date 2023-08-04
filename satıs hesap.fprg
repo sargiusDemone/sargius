@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-04 11:13:47 &#214;&#214;"/>
+        <attribute name="created" value="TEVOT1ZPO0RFU0tUT1AtRU5STVNENDsyMDIzLTA4LTA0OzEwOjQ0OjI3IMOWw5Y7MzExMQ=="/>
+        <attribute name="edited" value="TEVOT1ZPO0RFU0tUT1AtRU5STVNENDsyMDIzLTA4LTA0OzExOjEzOjQ3IMOWw5Y7MTszMjE4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="al&#305;&#351;, vergi, kar, sat&#305;&#351;" type="Integer" array="False" size=""/>
+            <output expression="&quot;Al&#305;&#351; fiyat&#305;n&#305; gir.&quot;" newline="True"/>
+            <input variable="al&#305;&#351;"/>
+            <output expression="&quot;Vergi oran&#305;n&#305; gir.&quot;" newline="True"/>
+            <input variable="vergi"/>
+            <output expression="&quot;Kar oran&#305;n&#305; gir.&quot;" newline="True"/>
+            <input variable="Kar"/>
+            <assign variable="sat&#305;&#351;" expression="al&#305;&#351;+(al&#305;&#351;*vergi/100)+(al&#305;&#351;*kar/100)"/>
+            <output expression="&quot;Sat&#305;&#351; fiyat&#305;n&#305;z:&quot; &amp;sat&#305;&#351;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
